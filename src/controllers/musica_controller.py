@@ -1,6 +1,7 @@
 from ..models.musica import Musica
 from ..views.musica_view import MusicaView
 
+
 class MusicaController:
     def __init__(self):
         self.lista_musicas = []
@@ -18,3 +19,6 @@ class MusicaController:
     def buscar_por_ano(self, ano):
         musicas_encontradas = [musica for musica in self.lista_musicas if musica.ano == ano]
         self.musica_view.mostrar_musicas(musicas_encontradas)
+
+    def obter_musicas(self):
+        return self.lista_musicas
