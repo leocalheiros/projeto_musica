@@ -1,6 +1,6 @@
 # Projeto de Gerenciamento de Músicas
 
-Este é um projeto simples de gerenciamento de músicas em Python em arqutietura MVC. Ele permite que você cadastre músicas, busque músicas pelo título ou ano de publicação e crie uma playlist aleatória com as músicas cadastradas.
+Este é um projeto simples de gerenciamento de músicas em Python em arquitetura MVC. Ele permite que você cadastre músicas, busque músicas pelo título ou ano de publicação e crie uma playlist aleatória com as músicas cadastradas.
 
 ## Pré-requisitos
 
